@@ -17,7 +17,7 @@ body::before{
     width:100%;
     height:100%;
     background:url("grain.png");
-    opacity:.03;
+    opacity:.08;
     pointer-events:none;
     z-index:999;
 }
@@ -59,7 +59,7 @@ body::before{
 }
 
 .hero h1{
-    font-size:10rem;
+    font-size:8rem;
     line-height:.9;
     letter-spacing:-6px;
 }
@@ -67,14 +67,26 @@ body::before{
 .hero p{
     margin-top:20px;
     color:#777;
+    font-size:1.2rem;
+}
+
+.intro{
+    padding:100px 8%;
+}
+
+.intro p{
+    font-size:2rem;
+    max-width:700px;
+    color:#888;
+    line-height:1.3;
 }
 
 .manifesto{
-    padding:200px 8%;
+    padding:180px 8%;
 }
 
 .manifesto h2{
-    font-size:4.5rem;
+    font-size:4rem;
     line-height:1.05;
     max-width:1000px;
 }
@@ -120,7 +132,7 @@ body::before{
 
 .floating-title h2{
     font-size:8rem;
-    opacity:.05;
+    opacity:.08;
 }
 
 .footer{
