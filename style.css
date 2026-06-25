@@ -7,7 +7,7 @@
 body{
     background:#000;
     color:#fff;
-    font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+    font-family:'Manrope', sans-serif;
     overflow-x:hidden;
 }
 
@@ -31,17 +31,18 @@ body::before{
     justify-content:center;
     align-items:center;
     z-index:1000;
-    animation:fadeOut 2s forwards;
-    animation-delay:1.5s;
+    animation:fadeOut 1.2s forwards;
+    animation-delay:.8s;
 }
 
 .loader h1{
     font-size:3rem;
+    font-family:'Bodoni Moda', serif;
 }
 
 .cursor{
-    width:20px;
-    height:20px;
+    width:28px;
+    height:28px;
     border:1px solid white;
     border-radius:50%;
     position:fixed;
@@ -59,19 +60,24 @@ body::before{
 }
 
 .hero h1{
+    font-family:'Bodoni Moda', serif;
     font-size:8rem;
-    line-height:.9;
-    letter-spacing:-6px;
+    font-weight:500;
+    line-height:.82;
+    letter-spacing:-1px;
+    text-transform:uppercase;
 }
 
 .hero p{
-    margin-top:20px;
+    margin-top:30px;
     color:#777;
-    font-size:1.2rem;
+    font-size:1.1rem;
+    max-width:500px;
+    line-height:1.4;
 }
 
 .intro{
-    padding:100px 8%;
+    padding:180px 8% 100px;
 }
 
 .intro p{
@@ -86,9 +92,11 @@ body::before{
 }
 
 .manifesto h2{
+    font-family:'Bodoni Moda', serif;
     font-size:4rem;
     line-height:1.05;
     max-width:1000px;
+    font-weight:500;
 }
 
 .works{
@@ -116,10 +124,23 @@ body::before{
 
 .info h3{
     font-size:2rem;
+    font-family:'Bodoni Moda', serif;
+    font-weight:500;
 }
 
 .info p{
     color:#777;
+}
+
+.signature{
+    padding:220px 8%;
+}
+
+.signature p{
+    font-family:'Bodoni Moda', serif;
+    font-size:3rem;
+    max-width:700px;
+    line-height:1.1;
 }
 
 .floating-title{
@@ -131,13 +152,18 @@ body::before{
 }
 
 .floating-title h2{
-    font-size:8rem;
-    opacity:.08;
+    font-size:11rem;
+    opacity:.12;
+    font-family:'Bodoni Moda', serif;
 }
 
 .footer{
     padding:120px 8%;
     border-top:1px solid #111;
+}
+
+.footer p{
+    color:#777;
 }
 
 .reveal{
